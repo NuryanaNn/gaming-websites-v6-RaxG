@@ -1,0 +1,1084 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header .navbar{
+    padding: 1rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+header .logo img{
+    width: 170px;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .navbar li{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+header .navbar .sci i{
+    color: #3c3c93;
+    background-color: #fff;
+    padding: 18px 20px;
+    border-radius: 50%;
+}
+
+header .navbar .sci i:hover{
+    background-color: #3c3c93;
+    color: #fff;
+}
+
+/* Hero */
+.hero .card{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .card1{
+    background-image: url('slider1.png');
+}
+
+.hero .card2{
+    background-image: url('slider2.png');
+}
+
+.hero .card3{
+    background-image: url('slider3.png');
+}
+
+.hero .card .cardText{
+    width: 800px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.hero .card h4{
+    color: #05cc7c;
+    font-size: 20px;
+}
+
+.hero .card h1{
+    color: #fff;
+    font-size: 70px;
+    margin: 15px;
+}
+
+.hero .card ul{
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .card ul li button{
+    padding: 15px 20px;
+    background-color: #05cc7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .card ul li button:hover{
+    background-color: transparent;
+    border: 1px solid #05cc7c;
+    transition: .5s;
+}
+
+.hero .card ul li{
+    margin-right: 20px;
+}
+
+.hero .card .play{
+    padding: 13px 15px;
+    background-color: #05cc7c;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.hero .heroSci{
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+}
+
+.hero .heroSci ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .heroSci ul li{
+    margin-top: 25px;
+    background-color: #202046;
+    padding: 10px 11px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hero .heroSci ul li:hover{
+    background-color: #05cc7c;
+    color: #fff;
+    transition: .5s;
+}
+
+.hero .heroSci ul a{
+    color: #fff;
+    font-size: 15px;
+}
+
+/* Team */
+.team{
+    padding: 0 5%;
+    margin-top: -80px;
+    position: relative;
+    z-index: 10;
+}
+
+.team .cardWrapper{
+    background-color: #202046;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Experience */
+.experience{
+    background-color: #1a1935;
+    margin-top: -115px;
+    padding: 0 5%;
+    height: 800px;
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .experienceImg{
+    width: 400px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 20;
+}
+
+.experience .experienceImg .square1{
+    height: 200px;
+    width: 200px;
+    background-color: #01a849;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: 9;
+}
+
+.experience .experienceImg .square2{
+    height: 200px;
+    width: 200px;
+    background-color: #01a849;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    z-index: 9;
+}
+
+.experience .experienceImg img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.experience .experienceText{
+    width: 600px;
+}
+
+.experience .experienceText h5{
+    color: #01a849;
+    font-size: 20px;
+}
+
+.experience .experienceText h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.experience .experienceText p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.experience .experienceText ul{
+    list-style: none;
+}
+
+.experience .experienceText .exp li{
+    margin-top: 10px;
+}
+
+.experience .experienceText .exp i{
+    margin-right: 10px;
+    color: #01a849;
+}
+
+.experience .experienceText .exp{
+    color: #fff;
+}
+
+.experience .experienceText .expBtn{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.experience .experienceText .expBtn li{
+    margin-right: 20px;
+}
+
+.experience .experienceText .expBtn button{
+    background-color: #05cc7c;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experience .experienceText .expBtn button:hover{
+    background-color: transparent;
+    border: 1px solid #05cc7c;
+    transition: .5s;
+}
+
+.experience .experienceText .expBtn li:nth-child(2){
+    padding: 15px 17px;
+    background-color: #05cc7c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Features */
+.features{
+    background-color: #191943;
+    padding: 4rem 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('Vector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features .featureText{
+    width: 600px;
+    color: #fff;
+}
+
+.features .featureText h4{
+    color: #05cc7c;
+    font-size: 20px;
+}
+
+.features .featureText h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.features .featureContent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+.features .featureContent .card{
+    background-color: #333287;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.features .featureContent .card:hover{
+    background-color: #05cc7c;
+}
+
+.features .featureContent .card:nth-child(1){
+    background-color:#05cc7c ;
+}
+
+.features .featureContent .card:hover h3,
+.features .featureContent .card:hover p{
+    color: #202046;
+}
+
+.features .featureContent .card:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.features .featureContent .card .images{
+    background-color: #202046;
+    padding: 15px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.features .featureContent .card .images img{
+    width: 100%;
+}
+
+.features .featureContent .card h3{
+    margin: 10px 0;
+}
+
+/* Streaming */
+.streaming{
+    padding: 4rem 5%;
+    background-image: url(livebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.streaming .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.streaming .streamImg{
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.streaming .streamImg i{
+    color: #fff;
+    font-size: 25px;
+    background-color: #01a849;
+    padding: 22px 25px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.streaming .streamImg:hover i{
+    color: #202046;
+}
+
+.streaming .streamImg img{
+    width: 100%;
+}
+
+.streaming .streamContent{
+    width: 600px;
+    z-index: 10;
+}
+
+.streaming .streamContent h3{
+    color: #05cc7c;
+    font-size: 25px;
+}
+
+.streaming .streamContent h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.streaming .streamContent .streamSlider{
+    margin-top: 30px;
+}
+
+.streaming .streamContent .streamSlider .card{
+    width: 250px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.streaming .streamContent .streamSlider .card .images,
+.streaming .streamContent .streamSlider .card .images img{
+    width: 100%;
+}
+
+.streaming .streamContent .streamSlider .card h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* battle */
+.battle{
+    background-color: #1a1935;
+    padding: 2rem 5%;
+}
+
+.battle .title{
+    text-align: center;
+}
+
+.battle .title h4,
+.trending .title h4,
+.upcoming .title h4,
+.member .title h4,
+.testimony .title h4,
+.shop .title h4,
+.news .title h4{
+    color: #05cc7c;
+    font-size: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.battle .title h1,
+.trending .title h1,
+.upcoming .title h1,
+.member .title h1,
+.testimony .title h1,
+.shop .title h1,
+.news .title h1{
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.battleContent {
+    margin-top: 60px;
+}
+
+.battleContent .card{
+    background-color: #333287;
+    padding: 25px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.battleContent .card:hover{
+    background-color: transparent;
+    border: 1px solid #01a849;
+    transition: .5s;
+}
+
+.battleContent .card .imgBox{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.battleContent .card .imgBox img{
+    background-color: #1a1935;
+    padding: 25px;
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.battleContent .card .imgBox h3{
+    background-color: #1a1935;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.battleContent .card .cardText{
+    width: 500px;
+    color: #fff;
+}
+
+.battleContent .card .cardText h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.battleContent .card .timer{
+    background-color: #05cc7c;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.battleContent .card .timer h3{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.battleContent .card .timer h4{
+    font-size: 15px;
+}
+
+.battleContent .card .timer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.battleContent .card .timer ul li{
+    margin-right: 10px;
+    background-color: #202046;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.battleContent .card .timer ul li a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.trending{
+    background-color: #202046;
+    padding: 4rem 5%;
+    background-image: url('vector2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trendingContent{
+    margin-top: 30px;
+}
+
+.trendingContent .card{
+    width: 250px;
+    cursor: pointer;
+    background-color: #152258;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.trendingContent .card:hover{
+    background-color: #05cc7c;
+    transition: .5s;
+}
+
+.trendingContent .card .images,
+.trendingContent .card .images img{
+    width: 100%;
+}
+
+.trendingContent .card .cardText{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.trendingContent .card .cardText .icons i{
+    background-color: #05cc7c;
+    color: #202046;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+.trendingContent .card:hover .cardText .icons i{
+    color: #05cc7c;
+    background-color: #202046;
+}
+
+.trendingContent .card .label{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #01a849;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Upcoming */
+.upcoming{
+    background-image: url('livebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 5%;
+    position: relative;
+}
+
+.upcoming .title{
+    position: relative;
+    z-index: 10;
+}
+
+.upcoming .upcomingContent{
+    margin-top: 40px;
+}
+
+.upcoming .upcomingContent .card{
+    background-color: #202046;
+    width: 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upcoming .upcomingContent .card .images{
+    background-color: #1a1935;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.upcoming .upcomingContent .card .images .firstImg{
+    position: relative;
+    z-index: 10;
+}
+
+.upcoming .upcomingContent .card .images .fadeImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .3;
+    height: 100%;
+}
+
+.upcoming .upcomingContent .card .images .fadeImg img{
+    height: 100%;
+}
+
+.upcoming .upcomingContent .card h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+.upcoming .upcomingContent .card ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.upcoming .upcomingContent ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+
+.upcoming .upcomingContent ul li{
+    margin-right: 10px;
+}
+
+.upcoming .upcomingContent ul li i{
+    background-color: #01a849;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.upcoming .upcomingContent .card  p{
+    color: #fff;
+    margin: 10px 0;
+}
+
+.upcoming .upcomingContent .card button{
+    padding: 15px 20px;
+    background-color: #05cc7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upcoming .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Member */
+.member{
+    background-color: #1a1935;
+    padding: 4rem 5%;
+}
+
+.member .memberContent{
+    margin-top: 40px;
+}
+
+.member .memberContent .card{
+    width: 280px;
+    background-color: #152258;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+}
+
+.member .memberContent .card:hover{
+    background-color: #01a849;
+    transition: .5s;
+}
+
+.member .memberContent .card .cardText{
+    padding: 10px;
+    text-align: center;
+}
+
+.member .memberContent .card .cardText h3{
+    margin-bottom: 10px;
+}
+
+.member .memberContent .card .images{
+    position: relative;
+}
+
+.member .memberContent .card .sci{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    visibility: hidden;
+}
+
+.member .memberContent .card:hover .sci{
+    visibility: visible;
+}
+
+.member .memberContent .card .sci a{
+    color: #fff;
+    background-color: #333287;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.member .memberContent .card .images,
+.member .memberContent .card .images img{
+    width: 100%;
+}
+
+/* testimony */
+.testimony{
+    background-color: #202046;
+    padding: 2rem 5%;
+    background-image: url('vector3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.testimonyContent{
+    margin-top: 30px;
+}
+
+.testimonyContent .card{
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 400px;
+}
+
+.testimonyContent .card .images,
+.testimonyContent .card .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.testimonyContent .card .cardText{
+    background-color: #1a1935;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+    visibility: hidden;
+}
+
+.testimonyContent .card:hover .cardText{
+    visibility: visible;
+}
+
+.testimonyContent .card .cardText h3{
+    color: #01a849;
+    margin: 10px 0;
+}
+
+/* Shop */
+.shop{
+    background-image: url('shop.png');
+    padding: 4rem 5%;
+    position: relative;
+}
+
+.shopContent{
+    margin-top: 40px;
+}
+
+.shopContent .card{
+    width: 200px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.shopContent .card .images{
+    background-color: #202046;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.shopContent .card .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.shopContent .card i{
+    color: gold;
+}
+
+.shopContent .card h3{
+    margin: 10px 0;
+}
+
+.shopContent .card h4{
+    color: #01a849;
+}
+
+.shop .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* News */
+.news{
+    background-color: #1a1935;
+    padding: 4rem 5%;
+    padding-bottom: 150px;
+}
+
+.news .newsContent{
+    margin-top: 40px;
+}
+
+.news .newsContent .card{
+    width: 300px;
+    color: #fff;
+    background-color: #202046;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.news .newsContent .card .cardText{
+    padding: 40px 10px;
+}
+
+.news .newsContent .card .images,
+.news .newsContent .card .images img{
+    width: 100%;
+}
+
+.news .newsContent .card ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.news .newsContent .card ul i{
+    margin-right: 10px;
+    color: #01a849;
+}
+
+.news .newsContent .card button{
+    padding: 15px 20px;
+    background-color: #05cc7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.news .newsContent .card button:hover{
+    background-color: transparent;
+    border: 1px solid #01a849;
+}
+
+/* Subscribe */
+.newsLatter{
+    padding: 1rem 5%;
+    margin-top: -100px;
+    position: relative;
+    z-index: 10;
+}
+
+.newsLatter .newslatterContent{
+    background-color: #202046;
+    padding: 5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsLatter .newslatterContent h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.newsLatter .newslatterContent .inputBx{
+    position: relative;
+}
+
+.newsLatter .newslatterContent input{
+    padding: 20px;
+    width: 600px;
+    border: none;
+    background-color: #1a1935;
+    border-radius: 30px;
+}
+
+.newsLatter .newslatterContent button{
+    padding: 15px 20px;
+    background-color: #05cc7c;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+footer{
+    background-image: url('bgfooter.png');
+    padding: 10rem 5%;
+    margin-top: -147px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+footer .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .logo{
+    position: relative;
+    z-index: 10;
+}
+
+footer ul{
+    list-style: none;
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+footer ul li{
+    margin-right: 30px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
